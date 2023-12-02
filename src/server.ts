@@ -1,5 +1,4 @@
 import DOMPurify from 'dompurify'
-import { Window } from 'happy-dom'
+import { JSDOM } from 'jsdom'
 
-// @ts-expect-error Fuzzy type matching
-export default DOMPurify(new Window())
+export default DOMPurify(new JSDOM().window)
