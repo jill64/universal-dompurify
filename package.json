@@ -2,7 +2,7 @@
   "name": "universal-dompurify",
   "description": "💎 Use DOMPurify for some context by conditional exports",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/universal-dompurify/issues",
