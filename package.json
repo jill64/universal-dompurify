@@ -31,7 +31,7 @@
   ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
-    "build": "tsc && npx tsx scripts/build.ts && npx publint",
+    "build": "tsc && npx publint",
     "prepack": "npm run build",
     "lint": "npx eslint . && npx depcheck",
     "format": "npx prettier -w ."
