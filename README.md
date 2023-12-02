@@ -1,2 +1,2 @@
-# universal-dompurify
-💎 Universally available DOMPurify with conditional exports
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
