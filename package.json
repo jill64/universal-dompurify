@@ -15,6 +15,7 @@
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
+      "worker": "./dist/edge.js",
       "browser": "./dist/browser.js",
       "node": "./dist/node.js",
       "default": "./dist/edge.js"
