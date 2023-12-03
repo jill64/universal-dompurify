@@ -1,5 +1,5 @@
 import type DP from 'dompurify'
 
-const DOMPurify: typeof DP | null = null
+const DOMPurify: ReturnType<typeof DP> | null = null
 
 export default DOMPurify
