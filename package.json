@@ -8,9 +8,7 @@
   "bugs": "https://github.com/jill64/universal-dompurify/issues",
   "homepage": "https://github.com/jill64/universal-dompurify#readme",
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "exports": {
     "./browser-only": {
