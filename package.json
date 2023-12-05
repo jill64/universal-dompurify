@@ -2,15 +2,13 @@
   "name": "universal-dompurify",
   "description": "💎 Use DOMPurify for some context by conditional exports",
   "type": "module",
-  "version": "0.4.1",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/universal-dompurify/issues",
   "homepage": "https://github.com/jill64/universal-dompurify#readme",
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "exports": {
     "./browser-only": {
@@ -32,8 +30,11 @@
   },
   "keywords": [
     "dompurify",
+    "html",
     "isomorphic",
-    "universal"
+    "sanitize",
+    "universal",
+    "xss"
   ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
