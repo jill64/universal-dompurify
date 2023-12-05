@@ -30,8 +30,11 @@
   },
   "keywords": [
     "dompurify",
+    "html",
     "isomorphic",
-    "universal"
+    "sanitize",
+    "universal",
+    "xss"
   ],
   "prettier": "@jill64/prettier-config",
   "scripts": {
