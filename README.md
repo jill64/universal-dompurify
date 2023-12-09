@@ -16,7 +16,7 @@ npm i universal-dompurify
 
 ## Usage
 
-Conditional Export applies the appropriate file at each runtime.
+Conditional exports apply the appropriate [DOMPurify](https://github.com/cure53/DOMPurify#readme) file at each run.
 
 ```js
 import DOMPurify from 'universal-dompurify'
