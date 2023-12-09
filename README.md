@@ -24,11 +24,11 @@ import DOMPurify from 'universal-dompurify'
 const cleaned = DOMPurify.sanitize(/* ... */)
 ```
 
-| Runtime     | Resolve                                                     |
-| ----------- | ----------------------------------------------------------- |
-| Browser     | DOMPurify                                                   |
-| Node Server | DOMPurify + JSDOM                                           |
-| Edge        | DOMPurify + JSDOM + (require: your external node polyfills) |
+| condition | resolve                                                         |
+| --------- | --------------------------------------------------------------- |
+| `browser` | `DOMPurify`                                                     |
+| `default` | `DOMPurify` + `JSDOM`                                           |
+| `worker`  | `DOMPurify` + `JSDOM` + (require: your external node polyfills) |
 
 > [!TIP]
 > It is generally not recommended to use JSDOM with the restricted Edge runtime.  
@@ -45,8 +45,8 @@ import DOMPurify from 'universal-dompurify/browser-only'
 const cleaned = DOMPurify?.sanitize?.(/* ... */) ?? 'server-fallback-value'
 ```
 
-| Runtime | Resolve   |
-| ------- | --------- |
-| Browser | DOMPurify |
-| Server  | null      |
-| Edge    | null      |
+| condition | resolve     |
+| --------- | ----------- |
+| `browser` | `DOMPurify` |
+| `default` | `null`      |
+| `worker`  | `null`      |
