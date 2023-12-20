@@ -50,3 +50,11 @@ const cleaned = DOMPurify?.sanitize?.(/* ... */) ?? 'server-fallback-value'
 | `browser` | `DOMPurify` |
 | `default` | `null`      |
 | `worker`  | `null`      |
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
