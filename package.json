@@ -2,7 +2,7 @@
   "name": "universal-dompurify",
   "description": "💎 Use DOMPurify for some context by conditional exports",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "author": {
     "name": "jill64",
@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@types/dompurify": "3.0.5",
-    "dompurify": "3.0.8",
+    "dompurify": "3.0.9",
     "jsdom": "24.0.0"
   }
 }
