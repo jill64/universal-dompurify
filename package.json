@@ -2,7 +2,7 @@
   "name": "universal-dompurify",
   "description": "💎 Use DOMPurify for some context by conditional exports",
   "type": "module",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "license": "MIT",
   "author": {
     "name": "jill64",
@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/universal-dompurify.git",
-    "image": "https://opengraph.githubassets.com/53547870557e816214d3641c182719448650d34f131ee9e41673b31341280dd4/jill64/universal-dompurify"
+    "image": "https://opengraph.githubassets.com/7a4c250ffd7058159bfa8fa9dfd3b593e6e3eb6c12dc57e33af494bc85f0c553/jill64/universal-dompurify"
   },
   "keywords": [
     "dompurify",
@@ -58,6 +58,6 @@
   "dependencies": {
     "@types/dompurify": "3.0.5",
     "dompurify": "3.1.6",
-    "jsdom": "25.0.0"
+    "jsdom": "25.0.1"
   }
 }
