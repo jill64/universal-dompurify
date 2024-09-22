@@ -58,6 +58,6 @@
   "dependencies": {
     "@types/dompurify": "3.0.5",
     "dompurify": "3.1.6",
-    "jsdom": "25.0.0"
+    "jsdom": "25.0.1"
   }
 }
