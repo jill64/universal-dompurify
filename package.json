@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@types/dompurify": "3.0.5",
-    "dompurify": "3.1.6",
+    "dompurify": "3.1.7",
     "jsdom": "25.0.1"
   }
 }
