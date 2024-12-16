@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/universal-dompurify.git",
-    "image": "https://opengraph.githubassets.com/c4a20e8564ad3f1917792ea5db2831681ae42fbde0d0e9d7174b2901ec52f211/jill64/universal-dompurify"
+    "image": "https://opengraph.githubassets.com/3b4951c5e66b63e7acaffd70833731d65e76549e970f5179fab1e933554523fd/jill64/universal-dompurify"
   },
   "keywords": [
     "dompurify",
@@ -50,7 +50,7 @@
     "format": "npx prettier -w ."
   },
   "devDependencies": {
-    "@jill64/eslint-config-ts": "1.1.56",
+    "@jill64/eslint-config-ts": "1.1.57",
     "@jill64/prettier-config": "1.0.0",
     "@types/jsdom": "21.1.7",
     "typescript": "5.7.2"
