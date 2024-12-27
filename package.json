@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/universal-dompurify.git",
-    "image": "https://opengraph.githubassets.com/989b2da907c61985416a9c498e494220f2e7194f58e173d7402668fa5f0d1d8b/jill64/universal-dompurify"
+    "image": "https://opengraph.githubassets.com/65f367623d1d017d8dd456f833cdbbcf3cc7e3c371da93c7c24d389558172f5d/jill64/universal-dompurify"
   },
   "keywords": [
     "dompurify",
